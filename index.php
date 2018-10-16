@@ -7,21 +7,24 @@
     <title>kok</title>
   </head>
   <body>
+    <form action="submit.php" method="post">
  Pohlaví:   <div>
-            <input type="radio" id="Muž"
-                   name="drone" value="muz" checked />
-            <label for="muž">Muž</label>
+            <input type="radio" id="man"
+                   name="gender" value="muz" />
+            <label for="muz">Muž</label>
         </div>
 
         <div>
-            <input type="radio" id="žena"
-                   name="drone" value="žena" />
-            <label for="žena">Žena</label>
+            <input type="radio" id="woman"
+                   name="gender" value="zena" />
+            <label for="zena">Žena</label>
         </div>
 Věk:
 <input type="number" id="věk"
-      name= "drone" value="Zadej věk" />
+      name= "age" value="Zadej věk" />
       <label for="věk">Věk</label>
+      <input type="submit" name="submit" value="Odeslat" method/>
+
 
  <br >Copyright (c) 2018 Copyright Holder All Rights Reserved.
 
